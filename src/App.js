@@ -19,6 +19,7 @@ function App() {
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     (async function () {
       let data = await fetch(api).then((res) => res.json());
 
