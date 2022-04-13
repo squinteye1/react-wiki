@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Search.module.css';
-import { useState, useEffect } from 'react';
+
 
 const Search = ({ setSearch, setpageNumber }) => {
  //   e.preventDefault();
